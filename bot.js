@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Dirllis");
-var prefix = "D";
+var prefix = "d";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
@@ -23,7 +23,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : black ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dbc |El Drallis l الدراليس |server`,"http://twitch.tv/Death Shop")
+client.user.setGame(`El Drallis l الدراليس`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
