@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dbc |Dirllis Broadcast`,"http://twitch.tv/Death Shop")
+client.user.setGame(`Dbc |Dirllis Broadcast`,"https://www.youtube.com/channel/UCPBm8jaOXO6r8Y0o_N482yg")
 client.user.setStatus("dnd")
 });
 
